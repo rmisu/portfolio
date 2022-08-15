@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    --primary: rgb(0, 0, 0);
+    --secondary: rgba(19, 92, 27, 0.199);
+    --tertiary: #19af28;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary);
+    color: var(--secondary)
+  }
+
+  main {
+    background-color: var(--secondary);
+    box-shadow: 0 4px 8px var(--primary);
+   }
+
+  header {
+    padding: 20px 35px;
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px var(--primary);
+  }
+  
+  header h1 {
+    font-size: 2vw;
+  }
+  
+
+  header a {
+    text-decoration: underline overline var(--tertiary);
+    color: var(--primary);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+ 
+  footer {
+    background: var(--secondary);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 0 4px 8px var(--primary);
+  }
+  
+  footer h1 {
+    color: var(--primary);
+    text-decoration: underline var(--tertiary);
+  }
+  
+  footer div {
+    display: inherit;
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: var(--primary);
+    padding: 15px;
+    text-decoration: underline var(--tertiary);
+    font-size: 1.55vw;
+  }
+
+  p {
+    padding: 5%;
+  }
+
+  h2 {
+    text-decoration: underline var(--tertiary);
+  }
+
+  .project-img {
+    width: 80%;
+    height: auto;
+  }
+  
+  .project-img:hover {
+    box-shadow: 0 0 2px 1px var(--primary);
+    padding: 5px;
+  }
+
+  .avatar {
+    border: 1px solid var(--primary);
+    padding: 5px;
+    width: 40%;
+  }
+
+  .hero {
+    color: var(--primary);
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+  .hero-section {
+    color: var(--primary);
+    text-decoration: underline var(--tertiary);
+    text-align: left;
+    padding-left: 2%;
+    padding-top: 5%;
+  }
+
+  .my-work {
+    color: var(--primary);
+    text-decoration: underline var(--tertiary);
+    text-align: left;
+    padding-left: 2%;
+  }
+
+  .projects {
+    color: var(--primary);
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0 auto 35px auto;
+    display: flex;
+    justify-content: space-between;
+}
+  
+  .card-project {
+    transition: 0.3s;
+    width: 80%;
+    height: auto
+  }
+

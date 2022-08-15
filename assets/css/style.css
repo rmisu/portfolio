@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    --primary: rgb(0, 0, 0);
-    --secondary: rgba(19, 92, 27, 0.199);
-    --tertiary: #19af28;
+    --primary: rgb(255, 255, 255);
+    --secondary: rgba(24, 160, 40, 0.199);
+    --tertiary: #000000;
   }
   
   body {
